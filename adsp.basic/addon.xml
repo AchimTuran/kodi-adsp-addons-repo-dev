@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="adsp.basic"
+  version="0.0.1"
+  name="Audio DSP Basic Processor"
+  provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.adsp" version="0.0.1"/>
+  </requires>
+  <extension
+    point="xbmc.adspaddon"
+    library_linux="adsp.basic.so"
+    library_osx="adsp.basic.dylib"
+    library_wingl="adsp.basic.dll"
+    library_windx="adsp.basic.dll"
+    library_android="libadsp.basic.so" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Basic Audio DSP Processor</summary>
+    <description lang="en">Basic Audio DSP Processor</description>
+    <disclaimer lang="en">Just contains stubs</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
