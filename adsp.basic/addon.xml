@@ -19,6 +19,6 @@
     <summary lang="en">Basic Audio DSP Processor</summary>
     <description lang="en">Basic Audio DSP Processor</description>
     <disclaimer lang="en">Just contains stubs</disclaimer>
-    <platform>all</platform>
+    <platform>wingl windx</platform>
   </extension>
 </addon>

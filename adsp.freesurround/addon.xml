@@ -19,6 +19,6 @@
     <summary lang="en">Free Surround Audio DSP Processor</summary>
     <description lang="en">Free Surround Audio DSP Processor</description>
     <disclaimer lang="en">This is a open source audio dsp processing system</disclaimer>
-    <platform>all</platform>
+    <platform>wingl windx</platform>
   </extension>
 </addon>

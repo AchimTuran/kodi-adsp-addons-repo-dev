@@ -19,6 +19,6 @@
     <summary lang="en">Template for a Audio DSP Addon</summary>
     <description lang="en">You can use this template to see how the ADSP Addon API works or to start a new ADSP Addon.[CR]Preprocessing/Postprocessing only copies input to output.[CR]Master process implements a simple channel upmixer (e.g. stereo to 5.1) by copying the input channel to output channels.</description>
     <disclaimer lang="en">Just contains one Preprocess-, Masterprocess- and Postprocess-Mode.</disclaimer>
-    <platform>all</platform>
+    <platform>wingl windx</platform>
   </extension>
 </addon>
