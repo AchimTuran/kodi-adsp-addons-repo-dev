@@ -3,13 +3,13 @@
   id="adsp.freesurround"
   version="0.0.1"
   name="Free Surround Processor"
-  provider-name="Team XBMC">
+  provider-name="Team KODI">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="xbmc.adsp" version="0.1.5"/>
+    <import addon="kodi.adsp" version="0.0.1"/>
   </requires>
   <extension
-    point="xbmc.adspaddon"
+    point="kodi.adsp"
     library_linux="adsp.freesurround.so"
     library_osx="adsp.freesurround.dylib"
     library_wingl="adsp.freesurround.dll"
@@ -19,6 +19,6 @@
     <summary lang="en">Free Surround Audio DSP Processor</summary>
     <description lang="en">Free Surround Audio DSP Processor</description>
     <disclaimer lang="en">This is a open source audio dsp processing system</disclaimer>
-    <platform>wingl windx</platform>
+    <platform>all</platform>
   </extension>
 </addon>

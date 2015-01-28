@@ -3,13 +3,13 @@
   id="adsp.basic"
   version="0.0.1"
   name="Audio DSP Basic Processor"
-  provider-name="Team XBMC">
+  provider-name="Team KODI">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="xbmc.adsp" version="0.1.5"/>
+    <import addon="kodi.adsp" version="0.0.1"/>
   </requires>
   <extension
-    point="xbmc.adspaddon"
+    point="kodi.adsp"
     library_linux="adsp.basic.so"
     library_osx="adsp.basic.dylib"
     library_wingl="adsp.basic.dll"
@@ -19,6 +19,6 @@
     <summary lang="en">Basic Audio DSP Processor</summary>
     <description lang="en">Basic Audio DSP Processor</description>
     <disclaimer lang="en">Just contains stubs</disclaimer>
-    <platform>wingl windx</platform>
+    <platform>all</platform>
   </extension>
 </addon>
