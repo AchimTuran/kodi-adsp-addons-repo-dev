@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="adsp.parametric.eq"
+  version="0.0.1"
+  name="Parametric Equalizer"
+  provider-name="Team KODI">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="kodi.adsp" version="0.0.1"/>
+  </requires>
+  <extension
+    point="kodi.adsp"
+    library_linux="adsp.parametric.eq.so"
+    library_osx="adsp.parametric.eq.dylib"
+    library_wingl="adsp.parametric.eq.dll"
+    library_windx="adsp.parametric.eq.dll"
+    library_android="libadsp.parametric.eq.so" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Parametric Equalizer with BiQuads</summary>
+    <description lang="en">Parametric Equalizer with constant Q peaking filters (BiQuads or Second Order Sections). It's very flexible, because you can configure several pre- or postprocessing modes with variable Bands. E.g. postprocessing mode with 10 Bands. For better configuration of the gain of each audio band it uses peaklevel meters.</description>
+    <disclaimer lang="en">Note: it's only a place holder! Don't install it.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

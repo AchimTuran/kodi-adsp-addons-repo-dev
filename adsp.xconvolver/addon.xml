@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="adsp.xconvolver"
+  version="0.0.1"
+  name="AudioDSP XConvolver"
+  provider-name="Achim Turan">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="kodi.adsp" version="0.0.1"/>
+  </requires>
+  <extension
+    point="kodi.adsp"
+    library_linux="adsp.xconvolver.so"
+    library_osx="adsp.xconvolver.dylib"
+    library_wingl="adsp.xconvolver.dll"
+    library_windx="adsp.xconvolver.dll"
+    library_android="libadsp.xconvolver.so" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">XConvolver Audio DSP Addon</summary>
+    <description lang="en">ToDo some great description. :-b</description>
+    <disclaimer lang="en">Note: it's only a place holder! Don't install it.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
