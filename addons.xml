@@ -7,7 +7,7 @@
   provider-name="Team KODI">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="kodi.adsp" version="0.0.1"/>
+    <import addon="kodi.adsp" version="0.1.6"/>
   </requires>
   <extension
     point="kodi.adsp"
@@ -31,7 +31,7 @@
   provider-name="Team KODI">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="kodi.adsp" version="0.0.1"/>
+    <import addon="kodi.adsp" version="0.1.6"/>
   </requires>
   <extension
     point="kodi.adsp"
@@ -55,7 +55,7 @@
   provider-name="Team KODI">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="kodi.adsp" version="0.0.1"/>
+    <import addon="kodi.adsp" version="0.1.6"/>
   </requires>
   <extension
     point="kodi.adsp"
@@ -79,7 +79,7 @@
   provider-name="Team KODI">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="kodi.adsp" version="0.0.1"/>
+    <import addon="kodi.adsp" version="0.1.6"/>
   </requires>
   <extension
     point="kodi.adsp"
@@ -103,7 +103,7 @@
   provider-name="Achim Turan">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="kodi.adsp" version="0.0.1"/>
+    <import addon="kodi.adsp" version="0.1.6"/>
   </requires>
   <extension
     point="kodi.adsp"
