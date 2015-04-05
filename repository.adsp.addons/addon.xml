@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.audiodsp.addons" name="Audio DSP Addons" version="0.0.1" provider-name="AudioDSP Addons">
+<addon id="repository.audiodsp.addons" name="Audio DSP Add-ons" version="0.0.1" provider-name="Audio DSP Add-ons">
 	<extension point="xbmc.addon.repository" name="Achim's Audio DSP repository">
 		<info compressed="false">https://raw.githubusercontent.com/AchimTuran/kodi-adsp-addons-repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/AchimTuran/kodi-adsp-addons-repo/master/addons.xml.md5</checksum>
@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Audio DSP Add-ons from Achim's repository.</summary>
-		<description>Download Audio DSP addons and have fun ;)</description>
+		<description>Download Audio DSP Add-ons and have fun ;)</description>
 		<platform>all</platform>
 	</extension>
 </addon>
