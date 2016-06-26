@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="adsp.biquad.filters"
+  version="0.0.3"
+  name="Biquad Filters"
+  provider-name="Achim Turan, Team KODI">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="kodi.adsp" version="0.1.8"/>
+  </requires>
+  <extension
+    point="kodi.adsp"
+    library_windows="adsp.biquad.filters.dll"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Includes an equalizer post processing mode</summary>
+    <description lang="en">The first version of this add-on includes a parametric equalizer post processing mode with constant-Q peaking filters (biquad filter). It allows you to boost or cut 10 frequency bands.</description>
+    <disclaimer lang="en">Note: it's the first version. Consequently please use a low audio volume at first, which can protect your ears.</disclaimer>
+    <platform>windows</platform>
+  </extension>
+</addon>

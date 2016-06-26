@@ -1,0 +1,22 @@
+0.0.3 (2016-06-2016)
+- version bump to 0.0.3
+- fix a crash on Linux, because std::string::npos is not handled the same as under Windows
+- get rid of the CBiquadFiltersSettings singleton to safely start and shutdown XML settings file handling
+
+0.0.2 (2016-06-18)
+- fix kodi include paths
+- linux build fixes
+- addon.xml improvements
+- p8-platform name change
+- add Travis CI and AppVeyor build
+- fix invalid settings
+- fix a crash during add-on unload
+- add estuary support with vertical sliders
+- CMake improvements
+- auto generate addon.xml
+
+0.0.1 (2015-11-29)
+- first official release
+
+0.0.1~alpha1 (2015-05-09)
+- initial version

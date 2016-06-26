@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.audiodsp.addons" name="Audio DSP Add-ons" version="0.0.1" provider-name="Audio DSP Add-ons">
-	<extension point="xbmc.addon.repository" name="Achim's Audio DSP repository">
-		<info compressed="false">https://raw.githubusercontent.com/AchimTuran/kodi-adsp-addons-repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/AchimTuran/kodi-adsp-addons-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/AchimTuran/kodi-adsp-addons-repo/master/</datadir>
+<addon id="repository.adsp.addons" name="Audio DSP add-ons for Windows" version="2.0.5" provider-name="Audio DSP add-ons for Windows">
+	<extension point="xbmc.addon.repository" name="Audio DSP testbuild repository for Windows">
+		<info compressed="false">http://kodi-adsp.bplaced.net/releases/Krypton/windows/addons.xml</info>
+		<checksum>http://kodi-adsp.bplaced.net/releases/Krypton/windows/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodi-adsp.bplaced.net/releases/Krypton/windows/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Install Audio DSP Add-ons from Achim's repository.</summary>
-		<description>Download Audio DSP Add-ons and have fun ;)</description>
-		<platform>all</platform>
+		<summary>Latest testbuilds of Audio DSP add-ons</summary>
+		<description>Use this add-on repository at your own risk. Furthermore it is only supposed to work the testbuilds from http://forum.kodi.tv/showthread.php?tid=280357</description>
+		<platform>windows</platform>
 	</extension>
 </addon>
