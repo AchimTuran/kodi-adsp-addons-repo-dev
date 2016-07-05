@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="adsp.template"
+  version="1.0.0"
+  name="Audio DSP Template"
+  provider-name="Team KODI">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="kodi.adsp" version="0.1.7"/>
+  </requires>
+  <extension
+    point="kodi.adsp"
+    library_linux="adsp.template.so"
+    library_osx="adsp.template.dylib"
+    library_wingl="adsp.template.dll"
+    library_windx="adsp.template.dll"
+    library_android="libadsp.template.so" />
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Template for a Audio DSP Addon</summary>
+    <description lang="en">You can use this template to see how the ADSP Addon API works or to start a new ADSP Addon.[CR]Preprocessing/Postprocessing only copies input to output.[CR]Master process implements a simple channel upmixer (e.g. stereo to 5.1) by copying the input channel to output channels.</description>
+    <disclaimer lang="en">Just contains one Preprocess-, Masterprocess- and Postprocess-Mode.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

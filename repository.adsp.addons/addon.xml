@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.adsp.addons" name="Audio DSP add-ons for Windows" version="2.0.5" provider-name="Audio DSP add-ons for Windows">
+<addon id="repository.adsp.addons" name="Audio DSP add-ons for Linux" version="2.0.5" provider-name="Audio DSP add-ons for Windows">
 	<extension point="xbmc.addon.repository" name="Audio DSP testbuild repository for Windows">
-		<info compressed="false">http://kodi-adsp.bplaced.net/releases/Krypton/windows/addons.xml</info>
-		<checksum>http://kodi-adsp.bplaced.net/releases/Krypton/windows/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodi-adsp.bplaced.net/releases/Krypton/windows/</datadir>
+		<info compressed="false">http://kodi-adsp.bplaced.net/releases/Krypton/linux/addons.xml</info>
+		<checksum>http://kodi-adsp.bplaced.net/releases/Krypton/linux/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodi-adsp.bplaced.net/releases/Krypton/linux/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Latest testbuilds of Audio DSP add-ons</summary>
 		<description>Use this add-on repository at your own risk. Furthermore it is only supposed to work the testbuilds from http://forum.kodi.tv/showthread.php?tid=280357</description>
-		<platform>windows</platform>
+		<platform>linux</platform>
 	</extension>
 </addon>
